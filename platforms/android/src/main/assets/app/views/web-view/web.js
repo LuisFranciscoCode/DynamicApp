@@ -2,7 +2,7 @@ var layout = require("ui/layouts/stack-layout");
 var webviewModule = require("ui/web-view");
 var page;
 
-exports.principal = function(args) {
+exports.web = function(args) {
     console.info("ESTÁ A FUNCIONAR CARALHO.");
     page = args.object;
 
