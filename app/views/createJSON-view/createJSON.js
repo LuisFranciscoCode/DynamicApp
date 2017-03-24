@@ -16,7 +16,7 @@ exports.createJSON = function(args) {
 
     button1.on(buttonModule.Button.onTap , function() {
         console.log("oi");
-       // alert(dropDown1.value);
+        alert(dropDown1.value);
     });
 
     newStackLayout.addChild(dropDown1);
