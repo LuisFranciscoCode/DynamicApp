@@ -21,10 +21,6 @@ exports.principal = function(args) {
     });
 
     buttonListView.text = "Open ListView";
-<<<<<<< HEAD
-    buttonListView.on(buttonModele.Button.tapEvent, function() {
-       topmost.navigate("views/list-view/list");
-=======
     buttonListView.on(buttonModule.Button.tapEvent, function() {
        topmost.navigate("views/list-view/list");
     });
@@ -32,7 +28,6 @@ exports.principal = function(args) {
     buttonFormJsonColors.text = "Open Form Json Colors";
     buttonFormJsonColors.on(buttonModule.Button.tapEvent, function() {
         topmost.navigate("views/formJsonColors-view/form");
->>>>>>> refs/remotes/origin/Luis-Velho
     });
 
     newStackLayout.addChild(buttonWebView);
