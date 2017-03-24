@@ -15,7 +15,23 @@ exports.createJSON = function(args) {
     dropDown1.selectedIndex = 0;
 
     button1.on(buttonModule.Button.tapEvent , function() {
-        alert(dropDown1.items[dropDown1.selectedIndex]);
+        dropDown1.items[dropDown1.selectedIndex] = "";
+        var valores = Array(dropDown1.items.length -1);
+        console.log(dropDown1.items.length);
+        console.dump(valores);
+        j = 0;
+
+        for ( i = 0 ; i < dropDown1.items.length ; i++ ){
+
+            if ( dropDown1.items[i] != "" ){
+                valores[j] = dropDown1.items[i];
+                j++;
+
+            }
+        }
+        dropDown1.items = valores;
+        console.log(valores);
+
     });
 
     newStackLayout.addChild(dropDown1);
