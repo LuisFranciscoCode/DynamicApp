@@ -152,12 +152,12 @@
         "source": "C:\\Users\\Hugo\\Documents\\GitHub\\DynamicApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xxhdpi-v4\\abc_ic_voice_search_api_mtrl_alpha.png"
     },
     {
-        "merged": "C:\\Users\\Hugo\\Documents\\GitHub\\DynamicApp\\platforms\\android\\build\\intermediates\\res\\merged\\F0\\debug\\drawable-xxhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png",
-        "source": "C:\\Users\\Hugo\\Documents\\GitHub\\DynamicApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xxhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
-    },
-    {
         "merged": "C:\\Users\\Hugo\\Documents\\GitHub\\DynamicApp\\platforms\\android\\build\\intermediates\\res\\merged\\F0\\debug\\drawable-xxhdpi-v4\\abc_btn_check_to_on_mtrl_015.png",
         "source": "C:\\Users\\Hugo\\Documents\\GitHub\\DynamicApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xxhdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "C:\\Users\\Hugo\\Documents\\GitHub\\DynamicApp\\platforms\\android\\build\\intermediates\\res\\merged\\F0\\debug\\drawable-xxhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Hugo\\Documents\\GitHub\\DynamicApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-xxhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
     },
     {
         "merged": "C:\\Users\\Hugo\\Documents\\GitHub\\DynamicApp\\platforms\\android\\build\\intermediates\\res\\merged\\F0\\debug\\drawable-xxhdpi-v4\\abc_btn_rating_star_off_mtrl_alpha.png",

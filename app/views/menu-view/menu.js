@@ -11,6 +11,8 @@ exports.principal = function(args) {
     var buttonWebView = new buttonModule.Button();
     var buttonListView = new buttonModule.Button();
     var buttonCreateJSONView = new buttonModule.Button();
+    var buttonCheckbox = new buttonModule.Button();
+
     var topmost = frameModule.topmost();
 
     buttonWebView.text = "Open WebView";
@@ -29,9 +31,15 @@ exports.principal = function(args) {
        topmost.navigate("views/createJSON-view/createJSON");
     });
 
+    buttonCheckbox.text = "Open Checkbox testing";
+    buttonCheckbox.on(buttonModule.Button.tapEvent, function() {
+       topmost.navigate("views/checkbox-testing/checkbox");
+    });
+
     newStackLayout.addChild(buttonWebView);
     newStackLayout.addChild(buttonListView);
     newStackLayout.addChild(buttonCreateJSONView);
+    newStackLayout.addChild(buttonCheckbox);
 
     page.content = newStackLayout;
 

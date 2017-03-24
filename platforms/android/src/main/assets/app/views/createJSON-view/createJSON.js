@@ -5,7 +5,6 @@ var dropDownModule = require("nativescript-drop-down");
 var page;
 
 exports.createJSON = function(args) {
-    console.info("ESTÁ A FUNCIONAR CARALHO.");
     page = args.object;
 
     var newStackLayout = new layout.StackLayout();
@@ -13,10 +12,10 @@ exports.createJSON = function(args) {
     var button1 = new buttonModule.Button();
 
     dropDown1.items = ["Oi","Como","vai","isso"];
+    dropDown1.selectedIndex = 0;
 
-    button1.on(buttonModule.Button.onTap , function() {
-        console.log("oi");
-        alert(dropDown1.value);
+    button1.on(buttonModule.Button.tapEvent , function() {
+        alert(dropDown1.items[dropDown1.selectedIndex]);
     });
 
     newStackLayout.addChild(dropDown1);
