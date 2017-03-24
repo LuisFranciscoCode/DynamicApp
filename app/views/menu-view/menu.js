@@ -20,7 +20,7 @@ exports.principal = function(args) {
 
     buttonListView.text = "Open ListView";
     buttonListView.on(buttonModele.Button.tapEvent, function() {
-       topmost.naviate("views/list-view/list");
+       topmost.navigate("views/list-view/list");
     });
 
     newStackLayout.addChild(buttonWebView);
