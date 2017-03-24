@@ -1,4 +1,6 @@
 C:\Users\Hugo\Documents\GitHub\DynamicApp\platforms\android\src\main\assets\app\app.js
+C:\Users\Hugo\Documents\GitHub\DynamicApp\platforms\android\src\main\assets\app\tns_modules\nativescript-drop-down\drop-down-common.js
+C:\Users\Hugo\Documents\GitHub\DynamicApp\platforms\android\src\main\assets\app\tns_modules\nativescript-drop-down\drop-down.js
 C:\Users\Hugo\Documents\GitHub\DynamicApp\platforms\android\src\main\assets\app\tns_modules\tns-core-modules\bundle-entry-points.js
 C:\Users\Hugo\Documents\GitHub\DynamicApp\platforms\android\src\main\assets\app\tns_modules\tns-core-modules\application\application-common.js
 C:\Users\Hugo\Documents\GitHub\DynamicApp\platforms\android\src\main\assets\app\tns_modules\tns-core-modules\application\application.js
@@ -54,6 +56,7 @@ C:\Users\Hugo\Documents\GitHub\DynamicApp\platforms\android\src\main\assets\app\
 C:\Users\Hugo\Documents\GitHub\DynamicApp\platforms\android\src\main\assets\app\tns_modules\tns-core-modules\ui\builder\special-properties.js
 C:\Users\Hugo\Documents\GitHub\DynamicApp\platforms\android\src\main\assets\app\tns_modules\tns-core-modules\ui\button\button-common.js
 C:\Users\Hugo\Documents\GitHub\DynamicApp\platforms\android\src\main\assets\app\tns_modules\tns-core-modules\ui\button\button.js
+C:\Users\Hugo\Documents\GitHub\DynamicApp\platforms\android\src\main\assets\app\tns_modules\tns-core-modules\ui\checkbox\checkbox.js
 C:\Users\Hugo\Documents\GitHub\DynamicApp\platforms\android\src\main\assets\app\tns_modules\tns-core-modules\ui\content-view\content-view.js
 C:\Users\Hugo\Documents\GitHub\DynamicApp\platforms\android\src\main\assets\app\tns_modules\tns-core-modules\ui\core\bindable.js
 C:\Users\Hugo\Documents\GitHub\DynamicApp\platforms\android\src\main\assets\app\tns_modules\tns-core-modules\ui\core\dependency-observable.js
@@ -108,6 +111,13 @@ C:\Users\Hugo\Documents\GitHub\DynamicApp\platforms\android\src\main\assets\app\
 C:\Users\Hugo\Documents\GitHub\DynamicApp\platforms\android\src\main\assets\app\tns_modules\tns-core-modules\ui\progress\progress-common.js
 C:\Users\Hugo\Documents\GitHub\DynamicApp\platforms\android\src\main\assets\app\tns_modules\tns-core-modules\ui\progress\progress.js
 C:\Users\Hugo\Documents\GitHub\DynamicApp\platforms\android\src\main\assets\app\tns_modules\tns-core-modules\ui\proxy-view-container\proxy-view-container.js
+C:\Users\Hugo\Documents\GitHub\DynamicApp\platforms\android\src\main\assets\app\tns_modules\tns-core-modules\ui\radiobutton\radiogroup.js
+C:\Users\Hugo\Documents\GitHub\DynamicApp\platforms\android\src\main\assets\app\tns_modules\tns-core-modules\ui\radiobutton\angular\directives.js
+C:\Users\Hugo\Documents\GitHub\DynamicApp\platforms\android\src\main\assets\app\tns_modules\tns-core-modules\ui\radiobutton\angular\index.js
+C:\Users\Hugo\Documents\GitHub\DynamicApp\platforms\android\src\main\assets\app\tns_modules\tns-core-modules\ui\radiobutton\angular\module.js
+C:\Users\Hugo\Documents\GitHub\DynamicApp\platforms\android\src\main\assets\app\tns_modules\tns-core-modules\ui\radiobutton\angular\radiobutton.component.js
+C:\Users\Hugo\Documents\GitHub\DynamicApp\platforms\android\src\main\assets\app\tns_modules\tns-core-modules\ui\radiobutton\angular\radiogroup.component.js
+C:\Users\Hugo\Documents\GitHub\DynamicApp\platforms\android\src\main\assets\app\tns_modules\tns-core-modules\ui\radiobutton\hooks\before-livesync\nativescript-angular-sync.js
 C:\Users\Hugo\Documents\GitHub\DynamicApp\platforms\android\src\main\assets\app\tns_modules\tns-core-modules\ui\repeater\repeater.js
 C:\Users\Hugo\Documents\GitHub\DynamicApp\platforms\android\src\main\assets\app\tns_modules\tns-core-modules\ui\scroll-view\scroll-view-common.js
 C:\Users\Hugo\Documents\GitHub\DynamicApp\platforms\android\src\main\assets\app\tns_modules\tns-core-modules\ui\scroll-view\scroll-view.js
@@ -158,4 +168,7 @@ C:\Users\Hugo\Documents\GitHub\DynamicApp\platforms\android\src\main\assets\app\
 C:\Users\Hugo\Documents\GitHub\DynamicApp\platforms\android\src\main\assets\app\tns_modules\tns-core-modules\utils\utils.js
 C:\Users\Hugo\Documents\GitHub\DynamicApp\platforms\android\src\main\assets\app\tns_modules\tns-core-modules\xhr\xhr.js
 C:\Users\Hugo\Documents\GitHub\DynamicApp\platforms\android\src\main\assets\app\tns_modules\tns-core-modules\xml\xml.js
-C:\Users\Hugo\Documents\GitHub\DynamicApp\platforms\android\src\main\assets\app\views\menu.js
+C:\Users\Hugo\Documents\GitHub\DynamicApp\platforms\android\src\main\assets\app\views\createJSON-view\createJSON.js
+C:\Users\Hugo\Documents\GitHub\DynamicApp\platforms\android\src\main\assets\app\views\list-view\list.js
+C:\Users\Hugo\Documents\GitHub\DynamicApp\platforms\android\src\main\assets\app\views\menu-view\menu.js
+C:\Users\Hugo\Documents\GitHub\DynamicApp\platforms\android\src\main\assets\app\views\web-view\web.js
