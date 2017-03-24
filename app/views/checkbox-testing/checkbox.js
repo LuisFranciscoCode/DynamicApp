@@ -11,6 +11,10 @@ exports.createJSON = function(args) {
     var checkbox1 = new checkboxModule.CheckBox();
     var button1 = new buttonModule.Button();
 
+    button1.on(buttonModule.Button.tapEvent, function(){
+        console.log(checkbox1.checked);
+    });
+
     newStackLayout.addChild(checkbox1);
     newStackLayout.addChild(button1);
 
