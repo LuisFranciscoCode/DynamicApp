@@ -1,7 +1,6 @@
 var layout = require("ui/layouts/stack-layout");
 var webviewModule = require("ui/web-view");
 var frameModule = require("ui/frame");
-var webView1 = new webviewModule.WebView();
 var page;
 
 
@@ -9,8 +8,8 @@ var page;
 exports.web = function(args) {
     console.info("ESTÁ A FUNCIONAR CARALHO.");
     page = args.object;
-    var topmost = frameModule.topmost();
     var newStackLayout = new layout.StackLayout();
+    var webView1 = new webviewModule.WebView();
 
     webView1.url = "http://www.alidata.pt/";
     page.getViewById("pesquisaWeb").text=webView1.url;
