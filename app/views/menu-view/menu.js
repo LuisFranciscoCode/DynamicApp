@@ -9,16 +9,22 @@ exports.principal = function(args) {
 
     var newStackLayout = new layout.StackLayout();
     var buttonWebView = new buttonModele.Button();
+    var buttonListView = new buttonModele.Button();
+    var topmost = frameModule.topmost();
 
-    buttonWebView.text = " Open WebView";
-
+    buttonWebView.text = "Open WebView";
     buttonWebView.on(buttonModele.Button.tapEvent, function() {
-        var topmost = frameModule.topmost();
         topmost.navigate("views/web-view/web");
 
     });
 
+    buttonListView.text = "Open ListView";
+    buttonListView.on(buttonModele.Button.tapEvent, function() {
+       topmost.naviate("views/list-view/list");
+    });
+
     newStackLayout.addChild(buttonWebView);
+    newStackLayout.addChild(buttonListView);
 
     page.content = newStackLayout;
 
