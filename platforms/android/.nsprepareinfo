@@ -1,7 +1,7 @@
 {
-	"time": "Fri Mar 24 2017 17:34:42 GMT+0000 (Hora padrão de GMT)",
+	"time": "Mon Mar 27 2017 10:47:22 GMT+0100 (Hora de Verão de GMT)",
 	"bundle": false,
 	"release": false,
-	"changesRequireBuild": false,
-	"changesRequireBuildTime": "Wed Mar 22 2017 16:24:55 GMT+0000 (Hora padrão de GMT)"
+	"changesRequireBuild": true,
+	"changesRequireBuildTime": "Mon Mar 27 2017 10:47:22 GMT+0100 (Hora de Verão de GMT)"
 }
