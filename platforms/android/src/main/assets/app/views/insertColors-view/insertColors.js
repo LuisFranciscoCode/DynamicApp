@@ -30,25 +30,22 @@ drawButton = function(sLayout) {
     button.text = "Insert Color";
 
     button.on(buttonModule.Button.tapEvent, function() {
-        console.info(textfield1.text);
-        console.info(textfield2.text);
-
-        http.request({ url: "https://luisfranciscocode.000webhostapp.com/servidor.php?teste1=" + textfield1.text + "&&teste2=" + textfield2.text, method: "GET" }).then(function (response) {
-            alert("You just inserted a new color");
-            textfield1.text = "";
-            textfield2.text = "";
-        }, function (e) {
-           console.info(e);
-        });
-
-
+      insertColor();
     });
 
     sLayout.addChild(button);
 }
 
 insertColor = function() {
-
+    console.info(textfield1.text);
+    console.info(textfield2.text);
+    http.request({ url: "https://luisfranciscocode.000webhostapp.com/servidor.php?teste1=" + textfield1.text + "&&teste2=" + textfield2.text, method: "GET" }).then(function (response) {
+        alert("You just inserted a new color");
+        textfield1.text = "";
+        textfield2.text = "";
+    }, function (e) {
+        console.info(e);
+    });
 }
 
 
