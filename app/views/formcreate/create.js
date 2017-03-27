@@ -6,18 +6,15 @@ var labelModule = require("ui/label");
 var textfieldModule = require("ui/text-field");
 var page;
 var topmost = frameModule.topmost();
-
+var submitButton = new buttonModule.Button();
+    submitButton.name = "submitButton";
+    submitButton.text = "Ok";
+    
 exports.loadCreate = function(args) {
     console.info("ESTÁ A FUNCIONAR CARALHO.");
     page = args.object;
     var size = 5;
     var newStackLayout = new layout.StackLayout();
-    var submitButton = new buttonModule.Button();
-    submitButton.name = "submitButton";
-    submitButton.text = "Ok";
-    submitButton.on(buttonModule.Button.tapEvent, function() { 
-        topmost.navigate("views/form-view/form"); 
-    });
 
     var labelTextBox = new labelModule.Label();
     var textfieldTextBox = new textfieldModule.TextField();
@@ -54,20 +51,30 @@ exports.loadCreate = function(args) {
     textfieldDatePicker.name = "textfieldDatePicker";
     textfieldDatePicker.hint = "Insira um número";
 
+    submitButton.on(buttonModule.Button.tapEvent, function() {
+         var navigationOptions={
+        moduleName:"form-view/form",
+        context:{textboxes: page.getViewById("textfieldTextBox"),
+                checkboxes: page.getViewById("textfieldCheckBox")
+            }};
+            
+        topmost.navigate(); 
+    });
+
     newStackLayout.addChild(labelTextBox);
     newStackLayout.addChild(textfieldTextBox);
 
     newStackLayout.addChild(labelCheckBox);
     newStackLayout.addChild(textfieldCheckBox);
 
-    newStackLayout.addChild(labelComboBox);
+ /*   newStackLayout.addChild(labelComboBox);
     newStackLayout.addChild(textfieldComboBox);
 
     newStackLayout.addChild(labelRadio);
     newStackLayout.addChild(textfieldRadio);
 
     newStackLayout.addChild(labelDatePicker);
-    newStackLayout.addChild(textfieldDatePicker);
+    newStackLayout.addChild(textfieldDatePicker);*/
 
     newStackLayout.addChild(submitButton);
 
