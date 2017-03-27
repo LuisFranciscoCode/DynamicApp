@@ -11,6 +11,7 @@ exports.principal = function(args) {
     var buttonWebView = new buttonModule.Button();
     var buttonListView = new buttonModule.Button();
     var buttonFormJsonColors = new buttonModule.Button();
+    var buttonFormInsertColors = new buttonModule.Button();
 
     var topmost = frameModule.topmost();
 
@@ -30,9 +31,15 @@ exports.principal = function(args) {
         topmost.navigate("views/formJsonColors-view/form");
     });
 
+    buttonFormInsertColors.text = "Open Form Insert Colors";
+    buttonFormInsertColors.on(buttonModule.Button.tapEvent, function() {
+        topmost.navigate("views/insertColors-view/insertColors");
+    });
+
     newStackLayout.addChild(buttonWebView);
     newStackLayout.addChild(buttonListView);
     newStackLayout.addChild(buttonFormJsonColors);
+    newStackLayout.addChild(buttonFormInsertColors);
 
     page.content = newStackLayout;
 

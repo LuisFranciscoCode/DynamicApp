@@ -3,81 +3,73 @@ var buttonModule = require("ui/button");
 var labelModule = require("ui/label");
 var observable = require("data/observable");
 var observableArrayModule = require("data/observable-array");
-var arrayTesteObervable;
 
-var Botao = {
-    NomeBotao: "",
-    CodigoBotao: ""
-}
+var arrayObervableName;
+var arrayObersableCode;
+
 
 exports.formulario = function(args) {
     page = args.object;
     
     readJson();
-
 }
 
 readJson = function() {
     // fetch("http://10.0.7.102/teste/coresV2.json").then(response => { 
-    fetch("https://api.myjson.com/bins/16xfab").then(response => { 
+    // fetch("https://luisfranciscocode.000webhostapp.com/colors.json").then(response => { 
+    fetch("https://luisfranciscocode.000webhostapp.com/servidor.php?format=json").then(response => { 
         return response.json();
      })
      .then(function (r) {
         console.info("json chegou");    
         var dataJson = r;
-        var numDataJson = Object.keys(dataJson.Name).length;
+        var numDataJson = Object.keys(dataJson.Colors).length;
 
-        console.info(numDataJson);
+
+        console.info("Numer JSON: " + numDataJson);
+        console.info(JSON.stringify(dataJson)); 
+
         drawButtons(dataJson, numDataJson);
+
 	});    
 }
 
 drawButtons = function(values, totalValues) {
+
+    console.info(totalValues);
     var newStackLayout = new layout.StackLayout();
 
     var saveColor = new Array(totalValues);
-     
-
-    for(i = 0; i <= totalValues; i++) {
-        var arrayButton = new Array(i);
+    var arrayButton = new Array(totalValues);
+    
+    for(i = 0; i < totalValues; i++) {
         
-       var btn = new observableArrayModule.ObservableArray(Botao);
 
-        saveColor[i] = values.info[i].Code;
         arrayButton[i] = new buttonModule.Button();
-        arrayButton[i].text = values.info[i].Name;
+
+        arrayButton[i].text = values.Colors[i].info.name;
+        saveColor[i] = values.Colors[i].info.code;
+
+        console.info(values.Colors[i].info.code);
+        console.info(values.Colors[i].info.name);
+
         // arrayButton[i].value = values.info[i].Name;
-
-        btn.set("NomeBotao", values.info[i].Name);
-        btn.set("CodigoBotao", values.info[i].Code);
-
-        arrayButton[i].on(buttonModule.Button.tapEvent, function(args) {       
-            console.info("kkkkkkkk");
-            console.info("Property Changed!");
-            console.info("Text: " + args.text);
-            console.info("Event name:" + args.eventName);
-            console.info("Object:" + args.object);
-            console.info("propertyname:" + args.propertyName);
-            console.info("value:" + args.value); 
-        });
+        // arrayObersableCode = new observableArrayModule.ObservableArray(saveColor);
         
-        arrayTesteObervable = new observableArrayModule.ObservableArray(arrayButton);
-        console.dump(btn);
-        newStackLayout.addChild(arrayButton[i]);  
+        newStackLayout.addChild(arrayButton[i]);
     } 
-      
     
-    
-    // funcaoImportante(arrayTesteObervable);
+    // uncaoImportante(arrayObersableCode);
     page.content = newStackLayout;
 }
 
-funcaoImportante = function(arrayColors) {
-    num = arrayColors.length;
+funcaoImportante = function(x) {
+    num = x.length;
     console.info("Numero: " + num);
   
     for (i = 0; i < num; i++) {
-        console.info("GetItem(" + i + "): " + arrayColors.getItem(i));
+        //console.info("Name: GetItem(" + i + "): " + arrayObervableName.getItem(i));
+        console.info("Color: GetItem(" + i + "): " + x.getItem(i));
     } 
 }
 
