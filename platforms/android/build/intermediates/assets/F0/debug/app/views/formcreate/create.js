@@ -17,6 +17,6 @@ exports.loadCreate = function(args) {
 
     newStackLayout.addChild(labelTextBox);
     newStackLayout.addChild(textfieldTextBox);
-    
+
     page.content = newStackLayout;
 }
