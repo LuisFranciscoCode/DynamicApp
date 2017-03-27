@@ -2,6 +2,7 @@ C:\Users\Hugo\Documents\GitHub\DynamicApp\platforms\android\src\main\assets\app\
 C:\Users\Hugo\Documents\GitHub\DynamicApp\platforms\android\src\main\assets\app\tns_modules\nativescript-checkbox\checkbox.js
 C:\Users\Hugo\Documents\GitHub\DynamicApp\platforms\android\src\main\assets\app\tns_modules\nativescript-drop-down\drop-down-common.js
 C:\Users\Hugo\Documents\GitHub\DynamicApp\platforms\android\src\main\assets\app\tns_modules\nativescript-drop-down\drop-down.js
+C:\Users\Hugo\Documents\GitHub\DynamicApp\platforms\android\src\main\assets\app\tns_modules\nativescript-localstorage\localstorage.js
 C:\Users\Hugo\Documents\GitHub\DynamicApp\platforms\android\src\main\assets\app\tns_modules\tns-core-modules\bundle-entry-points.js
 C:\Users\Hugo\Documents\GitHub\DynamicApp\platforms\android\src\main\assets\app\tns_modules\tns-core-modules\application\application-common.js
 C:\Users\Hugo\Documents\GitHub\DynamicApp\platforms\android\src\main\assets\app\tns_modules\tns-core-modules\application\application.js
@@ -173,4 +174,6 @@ C:\Users\Hugo\Documents\GitHub\DynamicApp\platforms\android\src\main\assets\app\
 C:\Users\Hugo\Documents\GitHub\DynamicApp\platforms\android\src\main\assets\app\views\createJSON-view\createJSON.js
 C:\Users\Hugo\Documents\GitHub\DynamicApp\platforms\android\src\main\assets\app\views\list-view\list.js
 C:\Users\Hugo\Documents\GitHub\DynamicApp\platforms\android\src\main\assets\app\views\menu-view\menu.js
+C:\Users\Hugo\Documents\GitHub\DynamicApp\platforms\android\src\main\assets\app\views\observable-testes\main-view-model.js
+C:\Users\Hugo\Documents\GitHub\DynamicApp\platforms\android\src\main\assets\app\views\observable-testes\observable.js
 C:\Users\Hugo\Documents\GitHub\DynamicApp\platforms\android\src\main\assets\app\views\web-view\web.js

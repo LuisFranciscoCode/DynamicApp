@@ -1,0 +1,7 @@
+<Page loaded="principal">
+    <ActionBar title="Menu Principal" class="action-bar"></ActionBar>
+    <StackLayout>
+    <TextField text="{{ email }}" id="email"/>
+    <Button text="{{ btn1text }}" tap="{{ dofunction }}" id="btn1" />
+    </StackLayout>
+</Page>

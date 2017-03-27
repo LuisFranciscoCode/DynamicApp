@@ -28,12 +28,12 @@
         "source": "C:\\Users\\Hugo\\Documents\\GitHub\\DynamicApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_ratingbar_full_material.xml"
     },
     {
-        "merged": "C:\\Users\\Hugo\\Documents\\GitHub\\DynamicApp\\platforms\\android\\build\\intermediates\\res\\merged\\F0\\debug\\drawable\\abc_seekbar_thumb_material.xml",
-        "source": "C:\\Users\\Hugo\\Documents\\GitHub\\DynamicApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_seekbar_thumb_material.xml"
-    },
-    {
         "merged": "C:\\Users\\Hugo\\Documents\\GitHub\\DynamicApp\\platforms\\android\\build\\intermediates\\res\\merged\\F0\\debug\\drawable\\abc_ratingbar_small_material.xml",
         "source": "C:\\Users\\Hugo\\Documents\\GitHub\\DynamicApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hugo\\Documents\\GitHub\\DynamicApp\\platforms\\android\\build\\intermediates\\res\\merged\\F0\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "C:\\Users\\Hugo\\Documents\\GitHub\\DynamicApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_seekbar_thumb_material.xml"
     },
     {
         "merged": "C:\\Users\\Hugo\\Documents\\GitHub\\DynamicApp\\platforms\\android\\build\\intermediates\\res\\merged\\F0\\debug\\drawable\\abc_btn_borderless_material.xml",

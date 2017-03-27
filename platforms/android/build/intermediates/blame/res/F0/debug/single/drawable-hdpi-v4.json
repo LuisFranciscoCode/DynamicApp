@@ -168,12 +168,12 @@
         "source": "C:\\Users\\Hugo\\Documents\\GitHub\\DynamicApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
     },
     {
-        "merged": "C:\\Users\\Hugo\\Documents\\GitHub\\DynamicApp\\platforms\\android\\build\\intermediates\\res\\merged\\F0\\debug\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_000.png",
-        "source": "C:\\Users\\Hugo\\Documents\\GitHub\\DynamicApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
-    },
-    {
         "merged": "C:\\Users\\Hugo\\Documents\\GitHub\\DynamicApp\\platforms\\android\\build\\intermediates\\res\\merged\\F0\\debug\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png",
         "source": "C:\\Users\\Hugo\\Documents\\GitHub\\DynamicApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
+        "merged": "C:\\Users\\Hugo\\Documents\\GitHub\\DynamicApp\\platforms\\android\\build\\intermediates\\res\\merged\\F0\\debug\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_000.png",
+        "source": "C:\\Users\\Hugo\\Documents\\GitHub\\DynamicApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
     },
     {
         "merged": "C:\\Users\\Hugo\\Documents\\GitHub\\DynamicApp\\platforms\\android\\build\\intermediates\\res\\merged\\F0\\debug\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_015.png",
