@@ -64,12 +64,12 @@
         "source": "C:\\Users\\Miguel\\Documents\\GitHub\\DynamicApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.0\\res\\color\\abc_hint_foreground_material_dark.xml"
     },
     {
-        "merged": "C:\\Users\\Miguel\\Documents\\GitHub\\DynamicApp\\platforms\\android\\build\\intermediates\\res\\merged\\F0\\debug\\color\\abc_tint_btn_checkable.xml",
-        "source": "C:\\Users\\Miguel\\Documents\\GitHub\\DynamicApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.0\\res\\color\\abc_tint_btn_checkable.xml"
-    },
-    {
         "merged": "C:\\Users\\Miguel\\Documents\\GitHub\\DynamicApp\\platforms\\android\\build\\intermediates\\res\\merged\\F0\\debug\\color\\design_tint_password_toggle.xml",
         "source": "C:\\Users\\Miguel\\Documents\\GitHub\\DynamicApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.3.0\\res\\color\\design_tint_password_toggle.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miguel\\Documents\\GitHub\\DynamicApp\\platforms\\android\\build\\intermediates\\res\\merged\\F0\\debug\\color\\abc_tint_btn_checkable.xml",
+        "source": "C:\\Users\\Miguel\\Documents\\GitHub\\DynamicApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.0\\res\\color\\abc_tint_btn_checkable.xml"
     },
     {
         "merged": "C:\\Users\\Miguel\\Documents\\GitHub\\DynamicApp\\platforms\\android\\build\\intermediates\\res\\merged\\F0\\debug\\color\\abc_tint_edittext.xml",

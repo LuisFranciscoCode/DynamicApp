@@ -53,12 +53,12 @@ exports.loadCreate = function(args) {
 
     submitButton.on(buttonModule.Button.tapEvent, function() {
          var navigationOptions={
-        moduleName:"form-view/form",
-        context:{textboxes: page.getViewById("textfieldTextBox"),
-                checkboxes: page.getViewById("textfieldCheckBox")
-            }};
+        moduleName: 'views/form-view/form',
+        context:{param1: "value1",
+                param2: "value2"
+            }}
             
-        topmost.navigate(); 
+        topmost.navigate(navigationOptions); 
     });
 
     newStackLayout.addChild(labelTextBox);
@@ -67,14 +67,14 @@ exports.loadCreate = function(args) {
     newStackLayout.addChild(labelCheckBox);
     newStackLayout.addChild(textfieldCheckBox);
 
- /*   newStackLayout.addChild(labelComboBox);
+    newStackLayout.addChild(labelComboBox);
     newStackLayout.addChild(textfieldComboBox);
 
     newStackLayout.addChild(labelRadio);
     newStackLayout.addChild(textfieldRadio);
 
     newStackLayout.addChild(labelDatePicker);
-    newStackLayout.addChild(textfieldDatePicker);*/
+    newStackLayout.addChild(textfieldDatePicker);
 
     newStackLayout.addChild(submitButton);
 
