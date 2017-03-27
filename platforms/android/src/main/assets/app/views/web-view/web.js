@@ -6,7 +6,6 @@ var page;
 
 
 exports.web = function(args) {
-    console.info("ESTÁ A FUNCIONAR CARALHO.");
     page = args.object;
     var newStackLayout = new layout.StackLayout();
     var webView1 = new webviewModule.WebView();
