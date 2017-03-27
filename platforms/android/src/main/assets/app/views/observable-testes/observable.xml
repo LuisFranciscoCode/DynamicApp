@@ -1,0 +1,5 @@
+<Page loaded="principal">
+    <ActionBar title="Menu Principal" class="action-bar"></ActionBar>
+    <TextField text="{{ email }}" id="email"/>
+    <Button text="Butao do zé função" tap="{{ dofunction }}" id="btn1" />
+</Page>

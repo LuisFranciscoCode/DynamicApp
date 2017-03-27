@@ -4,7 +4,7 @@ var frameModule = require("ui/frame");
 var page;
 
 exports.principal = function(args) {
-    console.info("ESTÁ A FUNCIONAR CARALHO.");
+    console.info("ESTÁ A FUNCIONAR !");
     page = args.object;
 
     var newStackLayout = new layout.StackLayout();
@@ -12,6 +12,7 @@ exports.principal = function(args) {
     var buttonListView = new buttonModule.Button();
     var buttonCreateJSONView = new buttonModule.Button();
     var buttonCheckbox = new buttonModule.Button();
+    var buttonObservable = new buttonModule.Button();
 
     var topmost = frameModule.topmost();
 
@@ -36,10 +37,16 @@ exports.principal = function(args) {
        topmost.navigate("views/checkbox-testing/checkbox");
     });
 
+    buttonObservable.text = "Open Observable";
+    buttonObservable.on(buttonModule.Button.tapEvent, function() {
+       topmost.navigate("views/observable-testes/observable");
+    });
+
     newStackLayout.addChild(buttonWebView);
     newStackLayout.addChild(buttonListView);
     newStackLayout.addChild(buttonCreateJSONView);
     newStackLayout.addChild(buttonCheckbox);
+    newStackLayout.addChild(buttonObservable);
 
     page.content = newStackLayout;
 
