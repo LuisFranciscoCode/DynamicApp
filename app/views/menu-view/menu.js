@@ -4,7 +4,6 @@ var frameModule = require("ui/frame");
 var page;
 
 exports.principal = function(args) {
-    console.info("ESTÁ A FUNCIONAR CARALHO.");
     page = args.object;
 
     var newStackLayout = new layout.StackLayout();
