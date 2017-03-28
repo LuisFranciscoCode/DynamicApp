@@ -14,8 +14,7 @@ var submitButton = new buttonModule.Button();
 
 exports.loadCreate = function(args) {
     console.info("ESTÁ A FUNCIONAR CARALHO.");
-    
-
+    page = args.object;
     if(page.content == null) {
         var newStackLayout = new layout.StackLayout();
         var labelTextBox = new labelModule.Label();
@@ -23,45 +22,57 @@ exports.loadCreate = function(args) {
         labelTextBox.name = "labelTextBox";
         labelTextBox.text = "Quantas TextBoxes quer?";
         textfieldTextBox.name = "textfieldTextBox";
+        textfieldTextBox.id = "textfieldTextBox";
         textfieldTextBox.hint = "Insira um número";
+        textfieldTextBox.keyboardType = "number";
 
         var labelCheckBox = new labelModule.Label();
         var textfieldCheckBox = new textfieldModule.TextField();
         labelCheckBox.name = "labelCheckBox";
         labelCheckBox.text = "Quantas CheckBoxes quer?";
         textfieldCheckBox.name = "textfieldCheckBox";
+        textfieldCheckBox.id = "textfieldCheckBox";
         textfieldCheckBox.hint = "Insira um número";
+        textfieldCheckBox.keyboardType = "number";
 
         var labelComboBox = new labelModule.Label();
         var textfieldComboBox = new textfieldModule.TextField();
         labelComboBox.name = "labelComboBox";
         labelComboBox.text = "Quantas ComboBoxes quer?";
         textfieldComboBox.name = "textfieldComboBox";
+        textfieldComboBox.id = "textfieldComboBox";
         textfieldComboBox.hint = "Insira um número";
+        textfieldComboBox.keyboardType = "number";
 
         var labelRadio = new labelModule.Label();
         var textfieldRadio = new textfieldModule.TextField();
         labelRadio.name = "labelRadio";
         labelRadio.text = "Quantos Radio Buttons quer?";
         textfieldRadio.name = "textfieldRadio";
+        textfieldRadio.id = "textfieldRadio";
         textfieldRadio.hint = "Insira um número";
+        textfieldRadio.keyboardType = "number";
 
         var labelDatePicker = new labelModule.Label();
         var textfieldDatePicker = new textfieldModule.TextField();
         labelDatePicker.name = "labelDatePicker";
         labelDatePicker.text = "Quantos DatePickers quer?";
         textfieldDatePicker.name = "textfieldDatePicker";
+        textfieldDatePicker.id = "textfieldDatePicker";
         textfieldDatePicker.hint = "Insira um número";
+        textfieldDatePicker.keyboardType = "number";
 
         submitButton.on(buttonModule.Button.tapEvent, function() {
-        /*  var navigationOptions={
+            var navigationOptions={
             moduleName: 'views/form-view/form',
-            context:{param1: "value1",
-                    param2: "value2"
+            context:{textboxes: page.getViewById("textfieldTextBox").text,
+                    checkboxes: page.getViewById("textfieldCheckBox").text,
+                    comboboxes: page.getViewById("textfieldComboBox").text,
+                    radiobutton: page.getViewById("textfieldRadio").text,
+                    datepick: page.getViewById("textfieldDatePicker").text
                 }}
                 
-            topmost.navigate(navigationOptions); */
-            topmost.navigate("views/form-view/form");
+            topmost.navigate(navigationOptions);
         });
 
         newStackLayout.addChild(labelTextBox);

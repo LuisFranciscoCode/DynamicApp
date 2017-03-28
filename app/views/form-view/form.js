@@ -1,12 +1,12 @@
-function onNavigatingTo(args) {
+var page;
+
+exports.loadForm = function(args){
     console.log("oi");
-    var page = args.object;
-    
+    page = args.object;
     var gotData=page.navigationContext;
     console.log(gotData.textboxes);
     console.log(gotData.checkboxes);
-}
-exports.loadForm = function(){
-exports.onNavigatingTo = onNavigatingTo;
-
+    console.log(gotData.comboboxes);
+    console.log(gotData.radiobutton);
+    console.log(gotData.datepick);
 }
