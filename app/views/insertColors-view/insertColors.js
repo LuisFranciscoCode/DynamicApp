@@ -1,5 +1,6 @@
 var layout = require("ui/layouts/stack-layout");
 var buttonModule = require("ui/button");
+var radioModule = require("ui/radiobutton");
 var textfieldModule = require("ui/text-field");
 var utilityModule = require("utils/utils");
 var http = require("http");
@@ -7,11 +8,30 @@ var http = require("http");
 exports.inserirCores = function(args) {
     var stackLayout = new layout.StackLayout();
 
+    drawRadioButton(stackLayout);
     drawTextField(stackLayout);
     drawButton(stackLayout);
 
     page = args.object;
     page.content = stackLayout;
+}
+
+drawRadioButton = function(sLayout) {
+    var radioGroup = new radioModule.RadioGroup();
+
+    var radioInsert = new radioModule.RadioButton();
+    var radioUpdate = new radioModule.RadioButton();
+    var radioDelete = new radioModule.RadioButton();
+
+    radioInsert.text = "Insert Color";
+    radioUpdate.text = "Update Color";
+    radioDelete.text = "Delete Color";
+
+    radioGroup.addChild(radioInsert);
+    radioGroup.addChild(radioUpdate);
+    radioGroup.addChild(radioDelete);
+
+    sLayout.addChild(radioGroup);
 }
 
 drawTextField = function(sLayout) {
@@ -26,6 +46,8 @@ drawTextField = function(sLayout) {
 }
 
 drawButton = function(sLayout) {
+
+
     button = new buttonModule.Button();
     button.text = "Insert Color";
 
@@ -44,7 +66,7 @@ insertColor = function() {
         textfield1.text = "";
         textfield2.text = "";
     }, function (e) {
-        console.info(e);
+        alert(e);
     });
 }
 

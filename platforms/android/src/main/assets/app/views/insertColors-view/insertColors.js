@@ -44,7 +44,7 @@ insertColor = function() {
         textfield1.text = "";
         textfield2.text = "";
     }, function (e) {
-        console.info(e);
+        alert(e);
     });
 }
 
