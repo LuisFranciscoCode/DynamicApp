@@ -13,6 +13,7 @@
     "nativescript-checkbox": "^1.2.6",
     "nativescript-drop-down": "^1.5.3",
     "nativescript-localstorage": "^1.1.0",
+    "nativescript-sqlite": "^1.1.3",
     "tns-core-modules": "2.5.2"
   },
   "devDependencies": {

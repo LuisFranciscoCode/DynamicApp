@@ -1,7 +1,8 @@
 var layout = require("ui/layouts/stack-layout");
 var buttonModule = require("ui/button");
-var createViewModel = require("./main-view-model").createViewModel;
+var createViewModel = require("~/main-view-model").createViewModel;
 var localStorage = require("nativescript-localstorage");
+var Sqlite = require("nativescript-sqlite");
 
 var page;
 
@@ -26,15 +27,20 @@ exports.principal = function(args) {
     console.info("ESTÁ A FUNCIONAREE !");
     page = args.object;
 
-    // var newStackLayout = new layout.StackLayout();
+    (new Sqlite("my.db")).then( db => {
+        db.execSQL("CREATE TABLE IF NOT EXISTS people ( id INTEGER PRIMARY KEY AUTOINCREMENT , firstname TEXT , lastname TEXT )").then( id => {
+            page.bindingContext = createViewModel(db);
 
-    page.bindingContext = createViewModel();
+        }, error => {
+            console.log("CREATE ERROR " , error );
 
+        });
 
-    // newStackLayout.addChild(buttonTeste);
+    }, error => {
+        console.log("OPEN/CREATE DB ERROR " , error );
 
-    // page.content = newStackLayout;
+    });
 
-    // newObservable = page;
+    // page.bindingContext = createViewModel();
 
 }

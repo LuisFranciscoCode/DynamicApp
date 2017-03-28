@@ -2,6 +2,7 @@
     "nativescript-checkbox": true,
     "nativescript-drop-down": true,
     "nativescript-localstorage": true,
+    "nativescript-sqlite": true,
     "tns-core-modules": true,
     "tns-core-modules-widgets": true
 }
