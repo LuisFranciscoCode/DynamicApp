@@ -68,8 +68,8 @@ exports.loadCreate = function(args) {
             context:{textboxes: page.getViewById("textfieldTextBox").text,
                     checkboxes: page.getViewById("textfieldCheckBox").text,
                     comboboxes: page.getViewById("textfieldComboBox").text,
-                    radiobutton: page.getViewById("textfieldRadio").text,
-                    datepick: page.getViewById("textfieldDatePicker").text
+                    radiobuttons: page.getViewById("textfieldRadio").text,
+                    datepicks: page.getViewById("textfieldDatePicker").text
                 }}
                 
             topmost.navigate(navigationOptions);
