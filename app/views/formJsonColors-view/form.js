@@ -4,9 +4,7 @@ var labelModule = require("ui/label");
 var observable = require("data/observable");
 var observableArrayModule = require("data/observable-array");
 
-var arrayObervableName;
 var arrayObersableCode;
-
 
 exports.formulario = function(args) {
     page = args.object;
@@ -38,26 +36,32 @@ drawButtons = function(values, totalValues) {
     console.info(totalValues);
     var newStackLayout = new layout.StackLayout();
 
-    var saveColor = new Array(totalValues);
-    var arrayButton = new Array(totalValues);
-    
-    for(i = 0; i < totalValues; i++) {
-    
-        arrayButton[i] = new buttonModule.Button();
-
-        arrayButton[i].text = values.Colors[i].info.name;
-        saveColor[i] = values.Colors[i].info.code;
-
-        console.info(values.Colors[i].info.code);
-        console.info(values.Colors[i].info.name);
-
-        // arrayButton[i].value = values.info[i].Name;
-        // arrayObersableCode = new observableArrayModule.ObservableArray(saveColor);
+    if (totalValues == 0) {
+        label = new labelModule.Label();
+        label.text = "Do not exist colors";
+        newStackLayout.addChild(label);
         
-        newStackLayout.addChild(arrayButton[i]);
-    } 
+    }
+    else {
+        var saveColor = new Array(totalValues);
+        var arrayButton = new Array(totalValues);
+
     
-    // uncaoImportante(arrayObersableCode);
+        for(i = 0; i < totalValues; i++) {
+            arrayButton[i] = new buttonModule.Button();
+
+            arrayButton[i].text = values.Colors[i].info.name;
+            saveColor[i] = values.Colors[i].info.code;
+
+            console.info(values.Colors[i].info.code);
+            console.info(values.Colors[i].info.name);
+            
+            newStackLayout.addChild(arrayButton[i]);
+        } 
+    
+        // uncaoImportante(arrayObersableCode);
+    }
+    
     page.content = newStackLayout;
 }
 
@@ -66,7 +70,6 @@ funcaoImportante = function(x) {
     console.info("Numero: " + num);
   
     for (i = 0; i < num; i++) {
-        //console.info("Name: GetItem(" + i + "): " + arrayObervableName.getItem(i));
         console.info("Color: GetItem(" + i + "): " + x.getItem(i));
     } 
 }
