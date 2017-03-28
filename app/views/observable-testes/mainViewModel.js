@@ -31,6 +31,17 @@ function createViewModel(database) {
 
     }
 
+    viewModel.delete = function() {
+        database.execSQL("Delete FROM people where firstname = ? and lastname = ? " , [this.firstname , this.lastname] ).then( id => {
+                console.log("DELETE RESULT " , id );
+
+        }, error => {
+            console.log("DELETE RESULT ERROR " , error );
+
+        });
+
+    }
+
     return viewModel;
 }
 
