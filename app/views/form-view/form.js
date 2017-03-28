@@ -60,12 +60,10 @@ exports.loadForm = function(args){
 
     var OmeuJaaason = JSON.parse(jaason);
 
-    var newStackLayout = new layout.StackLayout();
+ /*   var newStackLayout = new layout.StackLayout();
     var labelArray = new Array(fieldsSize);
     var textfieldArray = new Array(fieldsSize);
     var dropdownArray = new Array(fieldsSize);
     var checkboxArray = new Array(fieldsSize);
-    var buttonArray = new Array(fieldsSize);
-
-    console.dump(OmeuJaaason);
+    var buttonArray = new Array(fieldsSize);*/
 }

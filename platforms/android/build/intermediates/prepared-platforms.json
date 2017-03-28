@@ -1,4 +1,6 @@
 {
+    "nativescript-checkbox": true,
+    "nativescript-drop-down": true,
     "nativescript-radiobutton": true,
     "tns-core-modules": true,
     "tns-core-modules-widgets": true

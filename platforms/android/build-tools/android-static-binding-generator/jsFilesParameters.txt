@@ -1,4 +1,7 @@
 C:\Users\Miguel\Documents\GitHub\DynamicApp\platforms\android\src\main\assets\app\app.js
+C:\Users\Miguel\Documents\GitHub\DynamicApp\platforms\android\src\main\assets\app\tns_modules\nativescript-checkbox\checkbox.js
+C:\Users\Miguel\Documents\GitHub\DynamicApp\platforms\android\src\main\assets\app\tns_modules\nativescript-drop-down\drop-down-common.js
+C:\Users\Miguel\Documents\GitHub\DynamicApp\platforms\android\src\main\assets\app\tns_modules\nativescript-drop-down\drop-down.js
 C:\Users\Miguel\Documents\GitHub\DynamicApp\platforms\android\src\main\assets\app\tns_modules\nativescript-radiobutton\radiogroup.js
 C:\Users\Miguel\Documents\GitHub\DynamicApp\platforms\android\src\main\assets\app\tns_modules\nativescript-radiobutton\angular\directives.js
 C:\Users\Miguel\Documents\GitHub\DynamicApp\platforms\android\src\main\assets\app\tns_modules\nativescript-radiobutton\angular\index.js

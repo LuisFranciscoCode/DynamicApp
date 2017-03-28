@@ -10,6 +10,9 @@
     }
   },
   "dependencies": {
+    "nativescript-checkbox": "^1.2.6",
+    "nativescript-drop-down": "^1.5.3",
+    "nativescript-google-maps-sdk": "^1.4.3",
     "nativescript-radiobutton": "^0.1.0",
     "tns-core-modules": "2.5.2"
   },
