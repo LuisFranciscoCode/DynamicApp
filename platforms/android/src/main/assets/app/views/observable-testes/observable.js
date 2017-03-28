@@ -1,7 +1,7 @@
 var layout = require("ui/layouts/stack-layout");
 var buttonModule = require("ui/button");
-var createViewModel = require("./main-view-model").createViewModel;
-var Sqlite = require(".nativescript-sqlite");
+var createViewModel = require("./mainViewModel").createViewModel;
+var Sqlite = require("nativescript-sqlite");
 
 var page;
 
