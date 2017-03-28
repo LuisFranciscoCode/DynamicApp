@@ -5,5 +5,5 @@ console.log("oi");
     var gotData=page.navigationContext;
     console.log(gotData.textboxes);
     console.log(gotData.checkboxes);
-
+console.log("se mudas esta merda vou me passar");
 }
