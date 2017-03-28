@@ -25,7 +25,6 @@ readJson = function() {
         var dataJson = r;
         var numDataJson = Object.keys(dataJson.Colors).length;
 
-
         console.info("Numer JSON: " + numDataJson);
         console.info(JSON.stringify(dataJson)); 
 
@@ -43,8 +42,7 @@ drawButtons = function(values, totalValues) {
     var arrayButton = new Array(totalValues);
     
     for(i = 0; i < totalValues; i++) {
-        
-
+    
         arrayButton[i] = new buttonModule.Button();
 
         arrayButton[i].text = values.Colors[i].info.name;
