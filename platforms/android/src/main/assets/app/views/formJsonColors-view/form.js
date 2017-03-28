@@ -17,7 +17,7 @@ exports.formulario = function(args) {
 readJson = function() {
     // fetch("http://10.0.7.102/teste/coresV2.json").then(response => { 
     // fetch("https://luisfranciscocode.000webhostapp.com/colors.json").then(response => { 
-    fetch("https://luisfranciscocode.000webhostapp.com/servidor.php?format=json").then(response => { 
+    fetch("https://luisfranciscocode.000webhostapp.com/servidor.php?num=0&&format=json").then(response => { 
         return response.json();
      })
      .then(function (r) {
@@ -25,14 +25,13 @@ readJson = function() {
         var dataJson = r;
         var numDataJson = Object.keys(dataJson.Colors).length;
 
-
         console.info("Numer JSON: " + numDataJson);
         console.info(JSON.stringify(dataJson)); 
 
         drawButtons(dataJson, numDataJson);
 
 	});    
-}
+} 
 
 drawButtons = function(values, totalValues) {
 
@@ -43,8 +42,7 @@ drawButtons = function(values, totalValues) {
     var arrayButton = new Array(totalValues);
     
     for(i = 0; i < totalValues; i++) {
-        
-
+    
         arrayButton[i] = new buttonModule.Button();
 
         arrayButton[i].text = values.Colors[i].info.name;

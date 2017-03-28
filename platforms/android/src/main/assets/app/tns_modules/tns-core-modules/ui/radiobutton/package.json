@@ -10,7 +10,7 @@
         "spec": "latest",
         "type": "tag"
       },
-      "C:\\Users\\Miguel\\Documents\\GitHub\\testes\\NewApp"
+      "C:\\Users\\Administrador\\Projeto\\DynamicApp"
     ]
   ],
   "_from": "nativescript-radiobutton@latest",
@@ -45,7 +45,7 @@
   "_shasum": "0f74dd620423bea495805526b8206c697a62940c",
   "_shrinkwrap": null,
   "_spec": "nativescript-radiobutton",
-  "_where": "C:\\Users\\Miguel\\Documents\\GitHub\\testes\\NewApp",
+  "_where": "C:\\Users\\Administrador\\Projeto\\DynamicApp",
   "author": {
     "name": "Tunaweza",
     "email": "npm@tunaweza.com",

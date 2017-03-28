@@ -1,4 +1,11 @@
 C:\Users\Administrador\Projeto\DynamicApp\platforms\android\src\main\assets\app\app.js
+C:\Users\Administrador\Projeto\DynamicApp\platforms\android\src\main\assets\app\tns_modules\nativescript-radiobutton\radiogroup.js
+C:\Users\Administrador\Projeto\DynamicApp\platforms\android\src\main\assets\app\tns_modules\nativescript-radiobutton\angular\directives.js
+C:\Users\Administrador\Projeto\DynamicApp\platforms\android\src\main\assets\app\tns_modules\nativescript-radiobutton\angular\index.js
+C:\Users\Administrador\Projeto\DynamicApp\platforms\android\src\main\assets\app\tns_modules\nativescript-radiobutton\angular\module.js
+C:\Users\Administrador\Projeto\DynamicApp\platforms\android\src\main\assets\app\tns_modules\nativescript-radiobutton\angular\radiobutton.component.js
+C:\Users\Administrador\Projeto\DynamicApp\platforms\android\src\main\assets\app\tns_modules\nativescript-radiobutton\angular\radiogroup.component.js
+C:\Users\Administrador\Projeto\DynamicApp\platforms\android\src\main\assets\app\tns_modules\nativescript-radiobutton\hooks\before-livesync\nativescript-angular-sync.js
 C:\Users\Administrador\Projeto\DynamicApp\platforms\android\src\main\assets\app\tns_modules\tns-core-modules\bundle-entry-points.js
 C:\Users\Administrador\Projeto\DynamicApp\platforms\android\src\main\assets\app\tns_modules\tns-core-modules\application\application-common.js
 C:\Users\Administrador\Projeto\DynamicApp\platforms\android\src\main\assets\app\tns_modules\tns-core-modules\application\application.js
@@ -54,7 +61,6 @@ C:\Users\Administrador\Projeto\DynamicApp\platforms\android\src\main\assets\app\
 C:\Users\Administrador\Projeto\DynamicApp\platforms\android\src\main\assets\app\tns_modules\tns-core-modules\ui\builder\special-properties.js
 C:\Users\Administrador\Projeto\DynamicApp\platforms\android\src\main\assets\app\tns_modules\tns-core-modules\ui\button\button-common.js
 C:\Users\Administrador\Projeto\DynamicApp\platforms\android\src\main\assets\app\tns_modules\tns-core-modules\ui\button\button.js
-C:\Users\Administrador\Projeto\DynamicApp\platforms\android\src\main\assets\app\tns_modules\tns-core-modules\ui\checkbox\checkbox.js
 C:\Users\Administrador\Projeto\DynamicApp\platforms\android\src\main\assets\app\tns_modules\tns-core-modules\ui\content-view\content-view.js
 C:\Users\Administrador\Projeto\DynamicApp\platforms\android\src\main\assets\app\tns_modules\tns-core-modules\ui\core\bindable.js
 C:\Users\Administrador\Projeto\DynamicApp\platforms\android\src\main\assets\app\tns_modules\tns-core-modules\ui\core\dependency-observable.js
@@ -66,8 +72,6 @@ C:\Users\Administrador\Projeto\DynamicApp\platforms\android\src\main\assets\app\
 C:\Users\Administrador\Projeto\DynamicApp\platforms\android\src\main\assets\app\tns_modules\tns-core-modules\ui\date-picker\date-picker.js
 C:\Users\Administrador\Projeto\DynamicApp\platforms\android\src\main\assets\app\tns_modules\tns-core-modules\ui\dialogs\dialogs-common.js
 C:\Users\Administrador\Projeto\DynamicApp\platforms\android\src\main\assets\app\tns_modules\tns-core-modules\ui\dialogs\dialogs.js
-C:\Users\Administrador\Projeto\DynamicApp\platforms\android\src\main\assets\app\tns_modules\tns-core-modules\ui\drop-down\drop-down-common.js
-C:\Users\Administrador\Projeto\DynamicApp\platforms\android\src\main\assets\app\tns_modules\tns-core-modules\ui\drop-down\drop-down.js
 C:\Users\Administrador\Projeto\DynamicApp\platforms\android\src\main\assets\app\tns_modules\tns-core-modules\ui\editable-text-base\editable-text-base-common.js
 C:\Users\Administrador\Projeto\DynamicApp\platforms\android\src\main\assets\app\tns_modules\tns-core-modules\ui\editable-text-base\editable-text-base.js
 C:\Users\Administrador\Projeto\DynamicApp\platforms\android\src\main\assets\app\tns_modules\tns-core-modules\ui\enums\enums.js
@@ -170,5 +174,6 @@ C:\Users\Administrador\Projeto\DynamicApp\platforms\android\src\main\assets\app\
 C:\Users\Administrador\Projeto\DynamicApp\platforms\android\src\main\assets\app\tns_modules\tns-core-modules\xml\xml.js
 C:\Users\Administrador\Projeto\DynamicApp\platforms\android\src\main\assets\app\views\formJsonColors-view\form.js
 C:\Users\Administrador\Projeto\DynamicApp\platforms\android\src\main\assets\app\views\list-view\list.js
+C:\Users\Administrador\Projeto\DynamicApp\platforms\android\src\main\assets\app\views\managerColors-view\managerColors.js
 C:\Users\Administrador\Projeto\DynamicApp\platforms\android\src\main\assets\app\views\menu-view\menu.js
 C:\Users\Administrador\Projeto\DynamicApp\platforms\android\src\main\assets\app\views\web-view\web.js

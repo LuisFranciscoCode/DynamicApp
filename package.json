@@ -10,7 +10,8 @@
     }
   },
   "dependencies": {
-    "tns-core-modules": "2.5.2"
+    "nativescript-radiobutton": "^0.1.0",
+    "tns-core-modules": "^2.5.2"
   },
   "devDependencies": {
     "babel-traverse": "6.4.5",

@@ -31,9 +31,9 @@ exports.principal = function(args) {
         topmost.navigate("views/formJsonColors-view/form");
     });
 
-    buttonFormInsertColors.text = "Open Form Insert Colors";
+    buttonFormInsertColors.text = "Manager Colors";
     buttonFormInsertColors.on(buttonModule.Button.tapEvent, function() {
-        topmost.navigate("views/insertColors-view/insertColors");
+        topmost.navigate("views/managerColors-view/managerColors");
     });
 
     newStackLayout.addChild(buttonWebView);
