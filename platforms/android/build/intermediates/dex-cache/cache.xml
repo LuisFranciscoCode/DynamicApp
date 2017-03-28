@@ -6,77 +6,77 @@
         jumboMode="false"
         revision="25.0.2"
         sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
-        <dex dex="C:\Users\Hugo\Documents\GitHub\DynamicApp\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-animated-vector-drawable-23.4.0_095340d088b05f7f824d0cd026518540b23ad373.jar" />
+        <dex dex="C:\Users\Hugo\Documents\GitHub\DynamicApp\platforms\android\build\intermediates\pre-dexed\F0F1\debug\com.android.support-animated-vector-drawable-23.4.0_095340d088b05f7f824d0cd026518540b23ad373.jar" />
     </item>
     <item
         jar="C:\Users\Hugo\Documents\GitHub\DynamicApp\platforms\android\build\intermediates\exploded-aar\DynamicApp\runtime\unspecified\jars\classes.jar"
         jumboMode="false"
         revision="25.0.2"
         sha1="632bf39700c28ba66c117628dab343126ef89551">
-        <dex dex="C:\Users\Hugo\Documents\GitHub\DynamicApp\platforms\android\build\intermediates\pre-dexed\F0\debug\DynamicApp-runtime-unspecified_668172db262ee85336713a125b44a2087d8a1e10.jar" />
+        <dex dex="C:\Users\Hugo\Documents\GitHub\DynamicApp\platforms\android\build\intermediates\pre-dexed\F0F1\debug\DynamicApp-runtime-unspecified_668172db262ee85336713a125b44a2087d8a1e10.jar" />
     </item>
     <item
         jar="C:\Users\Hugo\Documents\GitHub\DynamicApp\platforms\android\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
         jumboMode="false"
         revision="25.0.2"
         sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
-        <dex dex="C:\Users\Hugo\Documents\GitHub\DynamicApp\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-appcompat-v7-23.4.0_c22b2083f1049c4b5dd7f347330843f0bae02ebf.jar" />
+        <dex dex="C:\Users\Hugo\Documents\GitHub\DynamicApp\platforms\android\build\intermediates\pre-dexed\F0F1\debug\com.android.support-appcompat-v7-23.4.0_c22b2083f1049c4b5dd7f347330843f0bae02ebf.jar" />
     </item>
     <item
         jar="C:\Users\Hugo\Documents\GitHub\DynamicApp\platforms\android\build\intermediates\exploded-aar\DynamicApp\runtime\unspecified\jars\libs\binding-generator.jar"
         jumboMode="false"
         revision="25.0.2"
         sha1="d82f3ca98719f09b65db6aeaf450ad3bafc46e81">
-        <dex dex="C:\Users\Hugo\Documents\GitHub\DynamicApp\platforms\android\build\intermediates\pre-dexed\F0\debug\binding-generator_2d65440d431a92efe8a38b664979a160dfd281ad.jar" />
+        <dex dex="C:\Users\Hugo\Documents\GitHub\DynamicApp\platforms\android\build\intermediates\pre-dexed\F0F1\debug\binding-generator_2d65440d431a92efe8a38b664979a160dfd281ad.jar" />
     </item>
     <item
         jar="C:\Users\Hugo\Documents\GitHub\DynamicApp\platforms\android\build\intermediates\exploded-aar\widgets-release\jars\classes.jar"
         jumboMode="false"
         revision="25.0.2"
         sha1="8a73b09319cc3945912970487ced4c7724acc97d">
-        <dex dex="C:\Users\Hugo\Documents\GitHub\DynamicApp\platforms\android\build\intermediates\pre-dexed\F0\debug\intermediates-exploded-aar-widgets-release_344759385e970f34eecfaa33185b88559e81e56b.jar" />
+        <dex dex="C:\Users\Hugo\Documents\GitHub\DynamicApp\platforms\android\build\intermediates\pre-dexed\F0F1\debug\intermediates-exploded-aar-widgets-release_344759385e970f34eecfaa33185b88559e81e56b.jar" />
     </item>
     <item
         jar="C:\Users\Hugo\Documents\GitHub\DynamicApp\platforms\android\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
         jumboMode="false"
         revision="25.0.2"
         sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
-        <dex dex="C:\Users\Hugo\Documents\GitHub\DynamicApp\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-support-v4-23.4.0_d811ce095aa9b102b25239044ad161ba74fe825b.jar" />
+        <dex dex="C:\Users\Hugo\Documents\GitHub\DynamicApp\platforms\android\build\intermediates\pre-dexed\F0F1\debug\com.android.support-support-v4-23.4.0_d811ce095aa9b102b25239044ad161ba74fe825b.jar" />
     </item>
     <item
         jar="C:\Users\Hugo\Documents\GitHub\DynamicApp\platforms\android\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
         jumboMode="false"
         revision="25.0.2"
         sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
-        <dex dex="C:\Users\Hugo\Documents\GitHub\DynamicApp\platforms\android\build\intermediates\pre-dexed\F0\debug\internal_impl-23.4.0_e90e8026b5a8dddd6d6a03899a51af409a8bdc0a.jar" />
+        <dex dex="C:\Users\Hugo\Documents\GitHub\DynamicApp\platforms\android\build\intermediates\pre-dexed\F0F1\debug\internal_impl-23.4.0_e90e8026b5a8dddd6d6a03899a51af409a8bdc0a.jar" />
     </item>
     <item
         jar="C:\Users\Hugo\Documents\GitHub\DynamicApp\platforms\android\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
         jumboMode="false"
         revision="25.0.2"
         sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
-        <dex dex="C:\Users\Hugo\Documents\GitHub\DynamicApp\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-support-vector-drawable-23.4.0_151c3aad9603f0a7e59294ddd848446ae4f4d2f9.jar" />
+        <dex dex="C:\Users\Hugo\Documents\GitHub\DynamicApp\platforms\android\build\intermediates\pre-dexed\F0F1\debug\com.android.support-support-vector-drawable-23.4.0_151c3aad9603f0a7e59294ddd848446ae4f4d2f9.jar" />
     </item>
     <item
         jar="C:\Users\Hugo\Documents\GitHub\DynamicApp\platforms\android\build\intermediates\exploded-aar\com.android.support\design\23.4.0\jars\classes.jar"
         jumboMode="false"
         revision="25.0.2"
         sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
-        <dex dex="C:\Users\Hugo\Documents\GitHub\DynamicApp\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-design-23.4.0_5dba2f7a2fde6410c69ec88cc31b45388280e727.jar" />
+        <dex dex="C:\Users\Hugo\Documents\GitHub\DynamicApp\platforms\android\build\intermediates\pre-dexed\F0F1\debug\com.android.support-design-23.4.0_5dba2f7a2fde6410c69ec88cc31b45388280e727.jar" />
     </item>
     <item
         jar="C:\Users\Hugo\Documents\GitHub\DynamicApp\platforms\android\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.4.0\jars\classes.jar"
         jumboMode="false"
         revision="25.0.2"
         sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
-        <dex dex="C:\Users\Hugo\Documents\GitHub\DynamicApp\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-recyclerview-v7-23.4.0_4f79230e7c3466f41b030d54a5718bb88ed4ae4f.jar" />
+        <dex dex="C:\Users\Hugo\Documents\GitHub\DynamicApp\platforms\android\build\intermediates\pre-dexed\F0F1\debug\com.android.support-recyclerview-v7-23.4.0_4f79230e7c3466f41b030d54a5718bb88ed4ae4f.jar" />
     </item>
     <item
         jar="C:\Program Files\Android\android-sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
         jumboMode="false"
         revision="25.0.2"
         sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
-        <dex dex="C:\Users\Hugo\Documents\GitHub\DynamicApp\platforms\android\build\intermediates\pre-dexed\F0\debug\support-annotations-23.4.0_4bc2f5f4c52b7856b2e2adeb931a4ded186ea1c6.jar" />
+        <dex dex="C:\Users\Hugo\Documents\GitHub\DynamicApp\platforms\android\build\intermediates\pre-dexed\F0F1\debug\support-annotations-23.4.0_4bc2f5f4c52b7856b2e2adeb931a4ded186ea1c6.jar" />
     </item>
 
 </items>

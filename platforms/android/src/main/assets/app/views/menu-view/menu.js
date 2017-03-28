@@ -13,6 +13,7 @@ exports.principal = function(args) {
     var buttonCreateJSONView = new buttonModule.Button();
     var buttonCheckbox = new buttonModule.Button();
     var buttonObservable = new buttonModule.Button();
+    var buttonCamera = new buttonModule.Button();
 
     var topmost = frameModule.topmost();
 
@@ -42,11 +43,17 @@ exports.principal = function(args) {
        topmost.navigate("views/observable-testes/observable");
     });
 
+    buttonCamera.text = "Open Camera";
+    buttonCamera.on(buttonModule.Button.tapEvent, function() {
+    topmost.navigate("views/camera-testing/camera");
+    });
+
     newStackLayout.addChild(buttonWebView);
     newStackLayout.addChild(buttonListView);
     newStackLayout.addChild(buttonCreateJSONView);
     newStackLayout.addChild(buttonCheckbox);
     newStackLayout.addChild(buttonObservable);
+    newStackLayout.addChild(buttonCamera);
 
     page.content = newStackLayout;
 

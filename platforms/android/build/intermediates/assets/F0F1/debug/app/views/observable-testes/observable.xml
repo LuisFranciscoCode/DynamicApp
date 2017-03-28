@@ -1,0 +1,11 @@
+<Page loaded="principal">
+    <StackLayout>
+        <TextField text="{{ firstname }}" id="firstname" hint="First Name" />
+        <TextField text="{{ lastname }}" id="lastname" hint="Last Name" />
+        <StackLayout orientation="horizontal">
+            <Button text="Insert" tap="{{ insert }}" />
+            <Button text="Select" tap="{{ select }}" />
+            <Button text="Delete" tap="{{ delete }}" />
+        </StackLayout>
+    </StackLayout>
+</Page>

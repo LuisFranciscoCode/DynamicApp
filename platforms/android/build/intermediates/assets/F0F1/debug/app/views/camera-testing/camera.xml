@@ -1,0 +1,7 @@
+<Page loaded="loaded">
+    
+    <StackLayout>
+        <Button id="cameraBtn" text="OpenCamera" tap="takePhoto" />
+    </StackLayout>
+
+</Page>
