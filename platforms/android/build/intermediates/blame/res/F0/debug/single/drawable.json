@@ -136,12 +136,12 @@
         "source": "C:\\Users\\Miguel\\Documents\\GitHub\\DynamicApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.0\\res\\drawable\\abc_edit_text_material.xml"
     },
     {
-        "merged": "C:\\Users\\Miguel\\Documents\\GitHub\\DynamicApp\\platforms\\android\\build\\intermediates\\res\\merged\\F0\\debug\\drawable\\abc_btn_check_material.xml",
-        "source": "C:\\Users\\Miguel\\Documents\\GitHub\\DynamicApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.0\\res\\drawable\\abc_btn_check_material.xml"
-    },
-    {
         "merged": "C:\\Users\\Miguel\\Documents\\GitHub\\DynamicApp\\platforms\\android\\build\\intermediates\\res\\merged\\F0\\debug\\drawable\\navigation_empty_icon.xml",
         "source": "C:\\Users\\Miguel\\Documents\\GitHub\\DynamicApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.3.0\\res\\drawable\\navigation_empty_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\Miguel\\Documents\\GitHub\\DynamicApp\\platforms\\android\\build\\intermediates\\res\\merged\\F0\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "C:\\Users\\Miguel\\Documents\\GitHub\\DynamicApp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.0\\res\\drawable\\abc_btn_check_material.xml"
     },
     {
         "merged": "C:\\Users\\Miguel\\Documents\\GitHub\\DynamicApp\\platforms\\android\\build\\intermediates\\res\\merged\\F0\\debug\\drawable\\abc_dialog_material_background.xml",

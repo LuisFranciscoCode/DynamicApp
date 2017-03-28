@@ -1,5 +1,6 @@
 {
     "nativescript-radiobutton": true,
+    "tns-android": true,
     "tns-core-modules": true,
     "tns-core-modules-widgets": true
 }

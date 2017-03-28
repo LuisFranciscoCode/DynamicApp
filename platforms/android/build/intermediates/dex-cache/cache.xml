@@ -2,6 +2,13 @@
 <items version="2" >
 
     <item
+        jar="C:\Users\Miguel\Documents\GitHub\DynamicApp\platforms\android\build\intermediates\exploded-aar\nativescript-optimized\jars\libs\binding-generator.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="d82f3ca98719f09b65db6aeaf450ad3bafc46e81">
+        <dex dex="C:\Users\Miguel\Documents\GitHub\DynamicApp\platforms\android\build\intermediates\pre-dexed\F0\debug\binding-generator_e9ad82b95060314262d9cfd065acbaa617798b1c.jar" />
+    </item>
+    <item
         jar="C:\Users\Miguel\Documents\GitHub\DynamicApp\platforms\android\build\intermediates\exploded-aar\widgets-release\jars\classes.jar"
         jumboMode="false"
         revision="25.0.2"
@@ -42,13 +49,6 @@
         revision="25.0.2"
         sha1="93c10d68ab5ea070f15782ae6d3a28d1f1d8f45e">
         <dex dex="C:\Users\Miguel\Documents\GitHub\DynamicApp\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-support-compat-25.3.0_e950d7527acb9e1fa4bc257709e0a654005c809c.jar" />
-    </item>
-    <item
-        jar="C:\Users\Miguel\Documents\GitHub\DynamicApp\platforms\android\build\intermediates\exploded-aar\DynamicApp\runtime\unspecified\jars\libs\binding-generator.jar"
-        jumboMode="false"
-        revision="25.0.2"
-        sha1="d82f3ca98719f09b65db6aeaf450ad3bafc46e81">
-        <dex dex="C:\Users\Miguel\Documents\GitHub\DynamicApp\platforms\android\build\intermediates\pre-dexed\F0\debug\binding-generator_431a8a410d0a04e27e6cba5a63e13971d69b53eb.jar" />
     </item>
     <item
         jar="C:\Users\Miguel\Documents\GitHub\DynamicApp\platforms\android\build\intermediates\exploded-aar\DynamicApp\runtime\unspecified\jars\classes.jar"

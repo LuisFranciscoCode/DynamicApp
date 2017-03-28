@@ -66,6 +66,8 @@ MERGED from [com.android.support:animated-vector-drawable:25.3.0] C:\Users\Migue
 MERGED from [com.android.support:support-vector-drawable:25.3.0] C:\Users\Miguel\Documents\GitHub\DynamicApp\platforms\android\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.3.0\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:support-compat:25.3.0] C:\Users\Miguel\Documents\GitHub\DynamicApp\platforms\android\build\intermediates\exploded-aar\com.android.support\support-compat\25.3.0\AndroidManifest.xml:21:5-23:58
 MERGED from [DynamicApp:runtime:unspecified] C:\Users\Miguel\Documents\GitHub\DynamicApp\platforms\android\build\intermediates\exploded-aar\DynamicApp\runtime\unspecified\AndroidManifest.xml:7:5-9:41
+MERGED from [:nativescript-optimized:] C:\Users\Miguel\Documents\GitHub\DynamicApp\platforms\android\build\intermediates\exploded-aar\nativescript-optimized\AndroidManifest.xml:7:5-9:41
+MERGED from [:nativescript-regular:] C:\Users\Miguel\Documents\GitHub\DynamicApp\platforms\android\build\intermediates\exploded-aar\nativescript-regular\AndroidManifest.xml:7:5-9:41
 MERGED from [:widgets-release:] C:\Users\Miguel\Documents\GitHub\DynamicApp\platforms\android\build\intermediates\exploded-aar\widgets-release\AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:design:25.3.0] C:\Users\Miguel\Documents\GitHub\DynamicApp\platforms\android\build\intermediates\exploded-aar\com.android.support\design\25.3.0\AndroidManifest.xml:21:5-23:62
 MERGED from [com.android.support:support-v4:25.3.0] C:\Users\Miguel\Documents\GitHub\DynamicApp\platforms\android\build\intermediates\exploded-aar\com.android.support\support-v4\25.3.0\AndroidManifest.xml:21:5-23:54
