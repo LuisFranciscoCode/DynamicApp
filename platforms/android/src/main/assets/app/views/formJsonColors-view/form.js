@@ -40,12 +40,11 @@ drawButtons = function(values, totalValues) {
         label = new labelModule.Label();
         label.text = "Do not exist colors";
         newStackLayout.addChild(label);
-        
+
     }
     else {
         var saveColor = new Array(totalValues);
         var arrayButton = new Array(totalValues);
-
     
         for(i = 0; i < totalValues; i++) {
             arrayButton[i] = new buttonModule.Button();
