@@ -1,0 +1,3 @@
+<Page loaded="loadForm">
+    <ActionBar title="Form" class="action-bar"></ActionBar>
+</Page>
