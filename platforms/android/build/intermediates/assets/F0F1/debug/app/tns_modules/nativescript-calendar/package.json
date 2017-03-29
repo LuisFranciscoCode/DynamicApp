@@ -1,0 +1,103 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "nativescript-calendar",
+        "scope": null,
+        "escapedName": "nativescript-calendar",
+        "name": "nativescript-calendar",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "C:\\Users\\Miguel\\Documents\\GitHub\\DynamicApp"
+    ]
+  ],
+  "_from": "nativescript-calendar@latest",
+  "_id": "nativescript-calendar@1.2.1",
+  "_inCache": true,
+  "_location": "/nativescript-calendar",
+  "_nodeVersion": "6.9.4",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/nativescript-calendar-1.2.1.tgz_1486818173206_0.8278947053477168"
+  },
+  "_npmUser": {
+    "name": "eddyverbruggen",
+    "email": "eddyverbruggen@gmail.com"
+  },
+  "_npmVersion": "3.10.10",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "nativescript-calendar",
+    "scope": null,
+    "escapedName": "nativescript-calendar",
+    "name": "nativescript-calendar",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/nativescript-calendar/-/nativescript-calendar-1.2.1.tgz",
+  "_shasum": "9259a4c440e9d103d0c21b10dd486c63c066932e",
+  "_shrinkwrap": null,
+  "_spec": "nativescript-calendar",
+  "_where": "C:\\Users\\Miguel\\Documents\\GitHub\\DynamicApp",
+  "author": {
+    "name": "Telerik / Eddy Verbruggen",
+    "email": "eddyverbruggen@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/eddyverbruggen/nativescript-calendar/issues"
+  },
+  "dependencies": {},
+  "description": "Interact with the native calendar. Add, Update, Read, you name it.",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "9259a4c440e9d103d0c21b10dd486c63c066932e",
+    "tarball": "https://registry.npmjs.org/nativescript-calendar/-/nativescript-calendar-1.2.1.tgz"
+  },
+  "gitHead": "345b2850af518f562388656bdd4103200877065a",
+  "homepage": "https://github.com/eddyverbruggen/nativescript-calendar",
+  "keywords": [
+    "ecosystem:nativescript",
+    "NativeScript",
+    "iOS",
+    "Android",
+    "Calendar",
+    "Events",
+    "Event",
+    "Agenda"
+  ],
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/eddyverbruggen/nativescript-calendar/blob/master/LICENSE"
+  },
+  "main": "calendar",
+  "maintainers": [
+    {
+      "name": "eddyverbruggen",
+      "email": "eddyverbruggen@gmail.com"
+    }
+  ],
+  "name": "nativescript-calendar",
+  "nativescript": {
+    "platforms": {
+      "android": "2.0.0",
+      "ios": "2.0.0"
+    }
+  },
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eddyverbruggen/nativescript-calendar.git"
+  },
+  "scripts": {},
+  "typings": "index.d.ts",
+  "version": "1.2.1"
+}
