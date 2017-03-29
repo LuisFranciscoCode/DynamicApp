@@ -4,5 +4,5 @@ var frameModule = require("ui/frame");
 var page;
 
 exports.formCreator = function() {
-   console.info("ESTÁ A FUNCIONAR CARALHO.");
+   console.info("Oi");
 }
